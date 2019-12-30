@@ -8,13 +8,36 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/buttonPlay"
+        android:id="@+id/buttonPlayBadum"
         android:layout_width="156dp"
         android:layout_height="86dp"
-        android:text="zonk"
+        android:text="badum tss"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPlayJeopardy"
+        android:layout_width="156dp"
+        android:layout_height="86dp"
+        android:text="jeopardy"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlayBadum" />
+
+    <Button
+        android:id="@+id/buttonPlayZonk"
+        android:layout_width="156dp"
+        android:layout_height="86dp"
+        android:text="zonk"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPlayBadum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
