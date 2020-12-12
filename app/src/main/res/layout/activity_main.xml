@@ -8,23 +8,34 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/buttonPlayShutdown"
+        android:layout_width="156dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/shutdown"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlayJeopardy" />
+
+    <Button
         android:id="@+id/buttonPlayBadum"
         android:layout_width="156dp"
         android:layout_height="86dp"
-        android:text="badum tss"
+        android:layout_marginTop="60dp"
+        android:text="@string/badum"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlayZonk" />
 
     <Button
         android:id="@+id/buttonPlayJeopardy"
         android:layout_width="156dp"
         android:layout_height="86dp"
-        android:text="jeopardy"
+        android:layout_marginTop="60dp"
+        android:text="@string/jeopardy"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonPlayBadum" />
@@ -33,9 +44,9 @@
         android:id="@+id/buttonPlayZonk"
         android:layout_width="156dp"
         android:layout_height="86dp"
-        android:text="zonk"
+        android:layout_marginTop="60dp"
+        android:text="@string/zonk"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonPlayBadum"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

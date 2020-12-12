@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">zonkBoard</string>
+    <string name="zonk">zonk</string>
+    <string name="badum">badum tss</string>
+    <string name="jeopardy">jeopardy</string>
+    <string name="shutdown">shutdown</string>
+
 </resources>
